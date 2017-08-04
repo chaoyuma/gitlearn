@@ -1,3 +1,9 @@
 git config --global user.name "XXX"
 git config --global user.email "xx@qq"  #初始化，自报家门，用global参数来确定所有本机所有仓库都用这个配置
 
+git init #在当前文件夹下使用，初始化该文件夹为git仓库，windows系统避免路径上出现中文
+
+git add filename #告诉Git，把文件添加到仓库
+git commit -m “XXX” #告诉Git，把文件提交到仓库
+
+
