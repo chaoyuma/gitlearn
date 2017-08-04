@@ -6,4 +6,6 @@ git init #在当前文件夹下使用，初始化该文件夹为git仓库，wind
 git add filename #告诉Git，把文件添加到仓库
 git commit -m “XXX” #告诉Git，把文件提交到仓库
 
+git status #随时掌握仓库当前状态，哪些文件已经修改过了，但是还没有提交
+git diff filename #查看文件前后版本不同
 
