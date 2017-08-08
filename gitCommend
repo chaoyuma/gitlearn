@@ -18,3 +18,9 @@ git reflog #记录每一次命令
 
 git checkout -- readme.txt #把工作区的文件回退到 最近一次git commit或者add时的状态
 
+git branch #查看分支
+git branch <name> 创建分支
+git checkout <name> #切换分支
+git checkout -b <name> #创建and切换分支
+git merge <name> #合并到当前分支
+git branch -d <name> #删除分支
