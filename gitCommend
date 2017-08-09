@@ -30,3 +30,5 @@ git merge --no-ff -m "xx" dev #使用--no-ff表示禁用fast forward
 git log --graph --pretty=oneline --abbrev-commit #显示分支历史
 
 git checkout -b dev origin/dev #创建从origin远程上的dev到本地
+
+git pull #把提交拉下来
