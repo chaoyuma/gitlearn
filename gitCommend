@@ -24,3 +24,7 @@ git checkout <name> #切换分支
 git checkout -b <name> #创建and切换分支
 git merge <name> #合并到当前分支
 git branch -d <name> #删除分支
+
+git merge --no-ff -m "xx" dev #使用--no-ff表示禁用fast forward
+
+git log --graph --pretty=oneline --abbrev-commit #显示分支历史
